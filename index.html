@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+    </style>
+    <title>10 dars</title>
+</head>
+<body class="p-[50px] flex flex-wrap justify-center bg-slate-300">
+
+  <label class="search-label flex inline-block w-[60%] mb-[50px] py-[19px] pl-[34px] bg-white pr-[24px] rounded-[30px]">
+    <input class="search-input [14px] w-[100%] outline-none border-r-[1px] border-[E6E6E6] text-[23px] leading-[23px] placeholder:text-[23px] placeholder:text-[#B4B4C6]" type="text" name="searchValue" placeholder="Search" autocomplete="off">
+    <img class="ml-[29px]" src="./images/search.svg" alt="search img" width="24" height="24">
+</label>
+    <ul class="products p-[30px] flex flex-wrap  items-top justify-center gap-8 border-[3px] border-white rounded-md  overflow-y-auto">
+        <div class="flex items-center justify-between pt-[22px] px-[42px] pb-[40px]">
+            
+        </div>
+    </ul>
+
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+    </script>
+</body>
+</html>

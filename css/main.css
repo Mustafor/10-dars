@@ -1,0 +1,9 @@
+.search-label:hover {
+    transition: all 0.3s linear;
+    box-shadow: 2px 2px 2px 2px slategrey;
+}
+
+.search-label:active {
+    transition: all 0.3s linear;
+    box-shadow: 5px 5px 5px 5px rgb(13, 0, 255);
+}
